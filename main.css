@@ -1,0 +1,37 @@
+*{
+    border:1px black solid;
+}
+
+h1{
+    color: rgb(255, 0, 0);
+}
+h2{
+    color: rgb(0, 255, 0);
+}
+
+.class1{
+    color: greenyellow;
+}
+
+.class2{
+    color: mediumturquoise;
+}
+
+#music{
+    color: darkorange;
+    height: 50%;
+    background-color: blueviolet;
+    width: 50%;
+    margin: 0;
+    animation: animations1 2s 1s forwards;
+}
+
+.container{
+    border: 2px crimson solid;
+}
+
+@keyframes animations1{
+    100%{
+        background-color: darkblue;
+    }
+}
